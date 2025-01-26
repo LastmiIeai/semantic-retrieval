@@ -1,0 +1,8 @@
+name: semantic_retrieval
+channels:
+  - defaults
+dependencies:
+  - pip
+  - cython
+  - pip:
+      - -r requirements.txt
